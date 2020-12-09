@@ -80,6 +80,7 @@ namespace CodeLibrary.Controllers
       System.Console.WriteLine("Enter a description");
       string bookDescription = Console.ReadLine();
       Book newBook = new Book(bookTitle, bookAuthor, bookDescription);
+
       _service.Add(newBook);
       System.Console.WriteLine($"Added {bookTitle} to the library!");
     }
@@ -100,7 +101,8 @@ namespace CodeLibrary.Controllers
 
       System.Console.WriteLine(list);
       string title = Console.ReadLine();
-      _service.Read(title);
+      System.Console.WriteLine(_service.Read(title));
+
     }
     private void Checkout()
     {
@@ -112,7 +114,8 @@ namespace CodeLibrary.Controllers
       {
         Console.Clear();
         System.Console.WriteLine("Success!");
-        _service.Checkout(selection - 1);
+        System.Console.WriteLine(_service.Checkout(selection - 1));
+
       }
       else
       {
@@ -129,7 +132,8 @@ namespace CodeLibrary.Controllers
       {
         Console.Clear();
         System.Console.WriteLine("Success!");
-        _service.Return(selection - 1);
+        System.Console.WriteLine(_service.Return(selection - 1));
+
       }
       else
       {
@@ -153,7 +157,8 @@ namespace CodeLibrary.Controllers
 
       System.Console.WriteLine(list);
       string title = Console.ReadLine();
-      _service.Delete(title);
+      System.Console.WriteLine(_service.Delete(title));
+
     }
   }
 }

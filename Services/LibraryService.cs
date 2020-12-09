@@ -41,13 +41,15 @@ namespace CodeLibrary.Services
       var index = books.FindIndex(book => book.Title == title);
       if (index != -1)
       {
-        System.Console.WriteLine($"{books[index].Description}");
+
+        return $"{books[index].Description}";
+
       }
       else
       {
-        System.Console.WriteLine("Please enter the title correctly");
+
+        return "Please enter the title correctly";
       }
-      return "";
     }
 
     internal string Delete(string title)
@@ -61,23 +63,25 @@ namespace CodeLibrary.Services
         {
 
           books.RemoveAt(index);
-          System.Console.WriteLine($"{title} is deleted!");
+          return $"{title} is deleted!";
+
         }
       }
       else
       {
-        System.Console.WriteLine("Please enter the title correctly");
+        return "Please enter the title correctly";
+
       }
       return "";
     }
     internal string Checkout(int selection)
     {
       var Books = books.FindAll(book => book.IsAvailable == true);
-      if (selection <= Books.Count)
+      if (selection <= books.Count)
       {
         books[selection].IsAvailable = false;
-        System.Console.WriteLine($"Enjoy reading {books[selection].Title}");
-        return " ";
+
+        return $"Enjoy reading {books[selection].Title}";
       }
       else
       {
@@ -89,11 +93,11 @@ namespace CodeLibrary.Services
     internal string Return(int selection)
     {
       var Books = books.FindAll(book => book.IsAvailable == false);
-      if (selection <= Books.Count)
+      if (selection <= books.Count)
       {
         books[selection].IsAvailable = true;
-        System.Console.WriteLine($"Thank you for returning {books[selection].Title}");
-        return " ";
+
+        return $"Thank you for returning {books[selection].Title}";
       }
       else
       {

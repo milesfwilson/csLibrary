@@ -1,0 +1,15 @@
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/CodeLibrary.deps.json
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/CodeLibrary.runtimeconfig.json
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/CodeLibrary.runtimeconfig.dev.json
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/CodeLibrary.dll
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/ref/CodeLibrary.dll
+/Users/mileswilson/source/codeworks/CodeLibrary/bin/Debug/net5.0/CodeLibrary.pdb
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.csprojAssemblyReference.cache
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.AssemblyInfoInputs.cache
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.AssemblyInfo.cs
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.csproj.CoreCompileInputs.cache
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.dll
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/ref/CodeLibrary.dll
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.pdb
+/Users/mileswilson/source/codeworks/CodeLibrary/obj/Debug/net5.0/CodeLibrary.genruntimeconfig.cache
